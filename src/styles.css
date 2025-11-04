@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #667eea 0%, #5438c6 100%);
     min-height: 100vh;
     display: flex;
     align-items: center;
@@ -104,22 +104,22 @@ body {
 }
 
 .btn-operation {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #667eea 0%, #5438c6 100%);
     color: white;
 }
 
 .btn-operation:hover {
-    background: linear-gradient(135deg, #7a8df0 0%, #8a5db0 100%);
+    background: linear-gradient(135deg, #7a8df0 0%, #5438c6 100%);
     box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
 }
 
 .btn-equals {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #667eea 0%, #4d32ba 100%);
     color: white;
 }
 
 .btn-equals:hover {
-    background: linear-gradient(135deg, #7a8df0 0%, #8a5db0 100%);
+    background: linear-gradient(135deg, #7a8df0 0%, #5438c6 100%);
     box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
 }
 

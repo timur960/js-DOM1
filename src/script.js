@@ -85,7 +85,7 @@ function appendNumber(number) {
 // Функція для вибору операції
 function chooseOperation(op) {
     if (currentValue === '' || currentValue === '-') {
-        showError('⚠️ Введіть число перед операцією!');
+        showError('Введіть число перед операцією!');
         return;
     }
     
@@ -110,7 +110,7 @@ function calculate() {
     
     // Перевірка на коректність чисел
     if (isNaN(prev) || isNaN(current)) {
-        showError('⚠️ Некоректні числові значення!');
+        showError('Некоректні числові значення!');
         clear();
         return;
     }
@@ -129,7 +129,7 @@ function calculate() {
             break;
         case 'divide':
             if (current === 0) {
-                showError('⚠️ Ділення на нуль неможливе!');
+                showError('Ділення на нуль неможливе!');
                 currentValue = 'Помилка';
                 updateDisplay();
                 setTimeout(() => {
@@ -149,7 +149,7 @@ function calculate() {
     
     // Перевірка на переповнення
     if (!isFinite(result)) {
-        showError('⚠️ Результат занадто великий!');
+        showError('Результат занадто великий!');
         clear();
         return;
     }
